@@ -1,0 +1,24 @@
+@media only screen and (max-width: 500px){
+    /*gallery page*/
+    img {
+        max-width: 80%;
+        height: 80%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .photo-container > div > img{
+        width: 80%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+    .photo-container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+        grid-auto-rows: auto;
+        grid-auto-flow: dense;
+        padding: 20px;
+    }
+}

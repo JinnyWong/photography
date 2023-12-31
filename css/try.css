@@ -12,12 +12,6 @@ html,body{
 
 }
 
-.navbar > a > img{
-    height:25px;
-    width: 25px;
-    padding: 0px;
-}
-
 .site-heading{
     display:grid;
     justify-content: center;
