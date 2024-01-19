@@ -12,19 +12,6 @@ html,body{
 
 }
 
-.site-heading{
-    display:grid;
-    justify-content: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.site-heading > a{
-    text-decoration: none;
-    background-color: none;
-    color:black;
-}
-
 
 .gallery-heading{
     display:grid;
